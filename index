@@ -1,0 +1,102 @@
+# tuweblatino<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TuWebLatino - Hosting sin Cuentos</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container nav-container">
+            <div class="logo">🌶️ TuWebLatino</div>
+            <nav>
+                <a href="#planes">Planes</a>
+                <a href="#nosotros">Nosotros</a>
+                <a href="dashboard.html" class="btn-login">Acceder / Demo</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>¡Dale Play a tu Idea! 🚀</h1>
+            <p>Hosting rápido, seguro y con soporte que habla tu idioma. Sin letras chiquitas ni complicaciones.</p>
+            <a href="#planes" class="btn-main">Ver Planes Chidos</a>
+        </div>
+    </section>
+
+    <!-- Planes -->
+    <section id="planes" class="planes-section">
+        <div class="container">
+            <h2>Nuestros Planes</h2>
+            <p class="subtitle">Elige el que más te cuadre. Precios anuales, sin sustos.</p>
+            
+            <div class="grid-planes">
+                <!-- Plan Compadre -->
+                <div class="card">
+                    <div class="header-card">
+                        <h3>Plan "El Compadre" 🧢</h3>
+                        <p>Para arrancar sin miedo</p>
+                    </div>
+                    <div class="price">$9.97 <span class="year">/año</span></div>
+                    <ul>
+                        <li>🌐 <strong>10</strong> Dominios Alojados</li>
+                        <li>💾 <strong>1 TB</strong> SSD NVMe</li>
+                        <li>📧 <strong>10</strong> Correos Corporativos</li>
+                        <li>🔒 SSL Gratis (Candado Verde)</li>
+                        <li>📞 Soporte WhatsApp</li>
+                    </ul>
+                    <a href="dashboard.html?plan=compadre" class="btn-buy">¡Lo quiero!</a>
+                </div>
+
+                <!-- Plan Duro (Destacado) -->
+                <div class="card featured">
+                    <div class="badge">MÁS VENDIDO</div>
+                    <div class="header-card">
+                        <h3>Plan "El Duro" 😎</h3>
+                        <p>Para negocios serios</p>
+                    </div>
+                    <div class="price">$24.97 <span class="year">/año</span></div>
+                    <ul>
+                        <li>🌐 <strong>100</strong> Dominios Alojados</li>
+                        <li>💾 <strong>2.0 TB</strong> SSD NVMe</li>
+                        <li>📧 <strong>100</strong> Correos por dominio</li>
+                        <li>🚀 Panel de Control cPanel</li>
+                        <li>⚡ Soporte Prioritario</li>
+                    </ul>
+                    <a href="dashboard.html?plan=duro" class="btn-buy btn-hot">¡Ponerme Duro!</a>
+                </div>
+
+                <!-- Plan Cacique -->
+                <div class="card">
+                    <div class="header-card">
+                        <h3>Plan "El Cacique" 👑</h3>
+                        <p>Poder Ilimitado</p>
+                    </div>
+                    <div class="price">$34.97 <span class="year">/año</span></div>
+                    <ul>
+                        <li>🌐 Dominios <strong>ILIMITADOS</strong></li>
+                        <li>💾 Espacio <strong>ILIMITADO</strong></li>
+                        <li>📧 Correos <strong>ILIMITADOS</strong></li>
+                        <li>💎 Soporte VIP Directo</li>
+                        <li>🛡️ Seguridad Reforzada</li>
+                    </ul>
+                    <a href="dashboard.html?plan=cacique" class="btn-buy">¡Soy el Jefe!</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 TuWebLatino.com - Hecho con sabor 🌶️</p>
+        </div>
+    </footer>
+
+</body>
+</html>
